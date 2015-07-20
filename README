@@ -1,0 +1,13 @@
+This software is for use on Android operating systems and is a bare bones
+implementation of a potential flow solver. 
+
+Potential flow solution can be obtained by solving the Laplace equation with 
+appropriate uniform flow and wall boundary conditions for stream function.
+
+The triangle mesher and solver are written in C++ and a first order triangle
+element is used in the finite element formulation. The matrix solve is
+done via matrix-free gmres with Jacobi preconditioning.
+
+The graphics rendering is done using android's opengl es.
+
+This project was developed by Hari Sitaraman.
